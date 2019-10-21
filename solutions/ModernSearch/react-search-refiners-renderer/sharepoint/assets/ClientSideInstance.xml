@@ -12,4 +12,10 @@
         ComponentId="819916f3-760a-4e1a-b5cb-46795cdf9fea"
         Properties="{}">
     </ClientSideComponentInstance>
+    <ClientSideComponentInstance
+        Title="SuggestionRenderer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="5a8c8539-7035-4d02-adc7-4b77864ac48b"
+        Properties="{}">
+    </ClientSideComponentInstance>
 </Elements>

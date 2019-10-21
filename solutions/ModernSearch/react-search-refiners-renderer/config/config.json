@@ -17,11 +17,20 @@
           "manifest": "./src/extensions/personRenderer/PersonRendererApplicationCustomizer.manifest.json"
         }
       ]
+    },
+    "suggestion-renderer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/suggestionRenderer/SuggestionRendererApplicationCustomizer.js",
+          "manifest": "./src/extensions/suggestionRenderer/SuggestionRendererApplicationCustomizer.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "CodeRendererApplicationCustomizerStrings": "lib/extensions/codeRenderer/loc/{locale}.js",
-    "PersonRendererApplicationCustomizerStrings": "lib/extensions/personRenderer/loc/{locale}.js"
+    "PersonRendererApplicationCustomizerStrings": "lib/extensions/personRenderer/loc/{locale}.js",
+    "SuggestionRendererApplicationCustomizerStrings": "lib/extensions/suggestionRenderer/loc/{locale}.js"
   }
 }

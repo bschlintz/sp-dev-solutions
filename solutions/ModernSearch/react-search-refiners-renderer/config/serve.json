@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
-  "port": 4321,
+  "port": 4477,
   "https": true,
   "serveConfigurations": {
     "default": {
@@ -29,6 +29,17 @@
       "pageUrl": "https://tgpuzzlepart.sharepoint.com/sites/nbrem-intra-6/SitePages/Search-test.aspx",
       "customActions": {
         "819916f3-760a-4e1a-b5cb-46795cdf9fea": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "suggestionRenderer": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "5a8c8539-7035-4d02-adc7-4b77864ac48b": {
           "location": "ClientSideExtension.ApplicationCustomizer",
           "properties": {
             "testMessage": "Test message"
